@@ -1,0 +1,62 @@
+body {
+  background-color: #f4f6ff;
+}
+
+.homePost {
+  margin: 30px auto 40px;
+}
+
+.form-class {
+  margin: 20px;
+  padding: 10px
+}
+
+.navi {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.dear {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2.75rem;
+  padding: 5px
+}
+
+.about {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.75rem;
+  padding: 5px;
+}
+
+.pen {
+  font-family: 'Balsamiq Sans', cursive;
+  display: inline;
+}
+
+.quill {
+  width: 2%;
+}
+
+.ptit {
+  display: inline-block;
+  width: 45%;
+}
+
+.pdat {
+  display: inline-block;
+  width: 54%;
+  text-align: right;
+}
+
+.pauth {
+  text-align: right;
+  margin-top: 0;
+}
+
+.pbod {
+  margin-bottom: 0;
+}
+
+.divi {
+  margin: 10px auto;
+}

@@ -1,0 +1,34 @@
+<%- include("partials/header") %>
+
+<!-- <h3>Pour Your Heart Out</h3> -->
+<div class="container-fluid homePost">
+  <h1>Welcome!</h1>
+  <h5>Hey Guys, Welcome to Dear Diary. This is place where you can pour your heart out. You can read, you can write, you can learn, you can enjoy :). So for writing your own dear diary moment click on the 'Compose' at the top right corner. Enjoy!
+  </h5>
+</div>
+
+<%posts.forEach(function(post){%>
+
+<div class="container-fluid homePost">
+
+  <div class="divi">
+    <h1 class="ptit"><%= post.title%></h1>
+    <h4 class="pdat"><%= post.date %></h4>
+  </div>
+
+  <div class="divi">
+    <p class="pbod">
+      <%= post.body.substring(0,500) + " ..."%>
+      <a href="/posts/<%= post._id %>">Read More</a>
+    </p>
+    <h3 class="pauth"><%="- " + post.author %></h3>
+
+  </div>
+
+
+</div>
+
+
+<%});%>
+
+<%- include("partials/footer") %>
